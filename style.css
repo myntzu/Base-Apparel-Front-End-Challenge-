@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+body{
+    width: 100%;
+    background-image: url("./images/bg-pattern-desktop.svg");
+    top: 15%;
+}
+
+h1{
+    padding-top: 8rem;
+    color: hsl(0, 36%, 70%);
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+
+h2{
+    width: 10px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: hsl(0, 6%, 24%);
+    letter-spacing: 1rem;
+
+}
+
+p{
+    padding-top: 1rem;
+    line-height: 1.5rem;
+    color: hsl(0, 36%, 70%);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+input[type='text']{
+    border: 1px solid hsl(0, 19%, 79%);
+    width: 300px;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    border-radius: 2rem;
+}
+
+input[value='Email Address']{
+    padding-left: 1rem;
+    color: hsl(0, 11%, 81%);
+}
+
+input[type='submit']{
+    background: linear-gradient(135deg,hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    font-size: 20px;
+    color: white;
+    box-shadow: 5px 10px 20px rgba(221, 188, 188, 20);
+    height: 42px;
+    width: 70px;
+    border: 1px none;
+    border-radius: 2rem;
+}
+
+.attribution{
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+
+.box{
+    display: flex;
+}
+
+/* pushes image to the right-side :')
+update: no it doesnt lol idk what this was for
+*/
+/* .poster{
+    margin-left: auto;
+} */
+
+.header{
+    padding: 4rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
