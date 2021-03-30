@@ -76,13 +76,6 @@ input[type='submit']{
     display: flex;
 }
 
-/* pushes image to the right-side :')
-update: no it doesnt lol idk what this was for
-*/
-/* .poster{
-    margin-left: auto;
-} */
-
 .header{
     padding: 4rem 10rem;
     display: flex;
