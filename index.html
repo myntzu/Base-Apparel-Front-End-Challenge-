@@ -10,33 +10,35 @@
   
   <!-- import stylesheet -->
   <link rel="stylesheet" href="./style.css" />
-
-  <!-- import font -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-
 </head>
 <body>
-  <div class="box">
-   <div class="header">
-    <img src="./images/logo.svg" alt="logo"/>
-     <h1>We're</h1>
-     <h2>coming soon</h2>
-  
-   <p> Hello fellow shoppers! We're currently building our new fashion store. 
-    Add your email below to stay up-to-date with announcements and our launch deals.</p>
+  <!-- main contains all elements excluding footer content -->
+  <main>
+   <div class="container">
+     <header>
+       <img src="./images/logo.svg" alt="logo"/>
+      </header>
+      <div class="content">
+        <h1>We're <span class="font_style">coming soon</span></h1>
+        <p> Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      </div>
+        <!-- aria-label used to implicitly label -->
+        <div class="subscription">
+        <form>
+          <input type="text" id="email" value="Email Address" aria-label="email">
+          <button type="submit" aria-label="submit"/>
+          <img src="./images/icon-arrow.svg" alt="arrow icon" />
+          <!-- <img src="./images/icon-error.svg" alt="error icon"/> -->
+          <!-- <p class="error_text">Please enter a valid email address!</p> -->
+        </form>
+        </div>
+      </div>
+      <div>
+        <img src="./images/hero-desktop.jpg" alt="poster"/>
+      </div>
 
-    <!-- aria-label used to implicitly label -->
-    <div>
-    <input type="text" id="email" value="Email Address" aria-label="email">
-    <input type="submit" value=">" aria-label="submit"></div>
-    </div>
-  
-    <div>
-      <img src="./images/hero-desktop.jpg" alt="poster"/>
-    </div>
-  </div>
-  
+  </main>
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
